@@ -1,1 +1,8 @@
-# Web_scraping
+# Web_scraping of YouTube Data Using YouTube API
+
+Using YouTube API, we extract the data and then load this data into a Python Pandas DataFrame and then analyze this data. Finally, we build visualizations from this data using the Python Seaborn library. 
+
+First, create a YouTube API Key which will be our credential to access youtube data. Once the API Key is generated, I used Jupyter Notebook to run my Python code. So we will install "google-api-python-client" (which is the google python package required to access youtube api data), we will also install pandas and seaborn. 
+I have divided this project into 2 parts. In the first part, we extract channel details from youtube. I.e. we extract details such as youtube channel name, total no of subscribers, total views and the total number of videos posted by each channel. We gather these details for a few Data Analyst/Data Scientist kinds of channels and then compare these channel data with each other. We shall see who has the highest subscriber and who gets the most views and the number of videos posted by these channels. We will be loading all of this data into a pandas dataframe and then analysing it. We will also generate visualizations using this data so we can easily compare these multiple channels. 
+
+In the second part, we shall build logic to extract video details from a particular channel. We shall extract details such as the video title, total views each video has got, and the total number of likes, dislikes and comments each video has got. We shall extract these details for all of the videos posted by a particular channel. 
